@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { /* ESTABLISHES DEFAULT FONT */
+	font-family: 'Trykker', serif;
+	margin: 0;
+	padding: 0;	
+}
+
+
+h1 {
+	font-size: 25px;
+       
+}
+
+h2 {
+	font-size: 20px;
+       
+}
+
+
+
+p {	 /* ESTABLISHES DEFAULT PARA */
+	color: #666;
+    margin: 0;
+	padding: 0; 
+}
+
+
+
+img { /* ESTABLISHES DEFAULT IMAGE */	
+        
+}
+
+/* NORMAL LINKS */
+
+a:link {
+	color: #000;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+/* LINKS FOR TOP MENU BAR */
+
+a.topmenulink:link {
+	color: #000;
+	text-decoration: none;
+
+}
+a.topmenulink:visited {
+	color: #000;
+	text-decoration: none;
+
+}
+a.topmenulink:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+/* LINKS FOR BOTTOM MENU BAR */
+
+a.menulink:link {
+	color: #fff;
+	text-decoration: none;
+
+}
+a.menulink:visited {
+	color: #fff;
+	text-decoration: none;
+
+}
+a.menulink:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* PAGE DIVISIONS */
+
+#header-container {  /* HEIGHT OF HEADER ON HOME PAGE ALONG WITH BOTTOM BORDER */
+	height: 340px;
+	background-image: url(images/graph1.png); /* HEADER IMAGE */
+	background-repeat:repeat-x;
+	border-bottom: solid 2px #666;
+
+}
+
+#header-container-small { /* HEIGHT OF HEADER ON OTHER PAGES ALONG WITH BOTTOM BORDER */
+	height: 50px;
+	background-image: url(images/graph1.png); /* HEADER IMAGE */
+	background-repeat:repeat-x;	
+	background-attachment:fixed;
+	background-position: 0px -100px; /* SLIDE UNDERLYING IMAGE UP OR DOWN */
+	border-bottom: solid 2px #666;
+	
+
+}
+
+#page-container { /* THIS HOLDS THE BODY OF THE PAGE, CENTERED */
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0 0 0;
+	min-height: 100%;	
+
+}
+
+#botmenu-container { /* BOTTOM MENU ON GREY STRIPE */
+	margin: 50px 0;
+	padding-bottom: 10px;
+	width: auto;
+	height: 40px;
+	background-color: #ccc;
+}
+
+#topmenu-container { /* TOP MENU */
+	margin-top: 10px;
+	padding-bottom: 10px;
+	width: auto;
+}
+
+.menu-item { /* GOVERNS BEHAVIOUR OF GREY MENU ITEMS, PLUS FONT */
+	float: left;	
+	margin: 10px 30px;
+	font-family: 'Pathway Gothic One', cursive;
+	font-size: 24px;
+	color: #fff;
+}
+
+.topmenu-item { /* GOVERNS BEHAVIOUR OF TOP MENU ITEMS, PLUS FONT */
+	float: left;	
+	margin: 0 30px;
+	font-family: 'Pathway Gothic One', cursive;
+	font-size: 24px;
+	color: #000;
+}
+
+
+.RA_big_name { /* RUTH ANGUS NAME ON HOME PAGE */
+	font-family: 'Sansita One', cursive;
+	font-size: 80px;
+	color: #666;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+	
+}
+
+.RA_medium_name { /* RUTH ANGUS NAME ON OTHER PAGES */
+	font-family: 'Sansita One', cursive;
+	font-size: 30px;
+	color: #666;
+	margin:  0;
+	padding: 0;
+	
+	
+}
+
+.homePageStatement { /* STATEMENT ON HOME PAGE WITH FONT */
+	font-family: 'Pathway Gothic One', cursive;
+	font-size: 24px;
+	color: #666;
+	margin: 40px 0 0 0; 
+	padding: 0;
+	
+	
+}
+
+.separator { /* GREY SEPARATOR STRIPE MAINLY USED ON CV PAGE */
+	border-top: solid 1px #666;
+	margin-top: 20px;
+}
+
+/* CV AREA */
+
+#cv-block { /* GOVERNS WIDTH OF BODY OF CV PAGE */
+	margin: auto;
+	width: 800px;	
+}
+
+.addressbox { /* ADDRESS BOXES ON CV PAGE - SEPARATION OF ELEMENTS */
+	margin-bottom: 10px;	
+}
+
+.cvMain { /* MAIN CV TEXT ELEMENTS */
+	font-size: 16px;
+	margin: 10px 0 5px 0;	
+}
+
+.cvDetails { /* SUB CV TEXT ELEMENTS */
+	font-size: 14px;
+	padding: 0 0 0 30px;
+	margin: 0;	
+}
+
+/* BLOG AREA */
+
+#blog-block { /* GOVERNS WIDTH OF BODY OF BLOCK PAGE */
+	margin: auto;
+	width: 800px;	
+}
+
+#blog-block p	{ /* CONTROLS THE PARA SEPARATION AND LINE HEIGHT OF BLOG BODY TEXT*/
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+
+/* VIDEOS AREA */
+
+#video-block { /* GOVERNS WIDTH OF BODY OF VIDEO PAGE, SET TO VIDEO WIDTH */
+	margin: auto;
+	width: 640px;
+}
+
+#video-block p	{ /* CONTROLS THE PARA SEPARATION AND LINE HEIGHT OF VIDEO BODY TEXT */
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+
+.video-alternative { /* TEXT UNDER VIDEO */
+	font-size: 14px;
+	font-style: italic;	
+}
