@@ -18,10 +18,8 @@
 <h1>Videos</h1>
 <h2>Extra-solar planets: from science-fiction to reality</h2>
 <video width="640" height="430" title="Extra-solar planets: from science-fiction to reality" poster="video1poster.png" controls >
-  <source src="2013-06-03_ruth_angus_astrophysics_x264.mp4" type="video/mp4">
-  <source src="2013-06-03_ruth_angus_astrophysics_VP8.webm" type="video/webm">
-  <source src="2013-06-03_ruth_angus_astrophysics_libtheora.ogv" type="video/ogg">
-  <embed src="2013-06-03_ruth_angus_astrophysics.swf" type="application/x-shockwave-flash" width="640" height="360" />  
+  <source src="2013-06-03_ruth_angus_astrophysics.mp4" type="video/mp4">
+  <source src="2013-06-03_ruth_angus_astrophysics.ogg" type="video/ogg">
   <p>Your browser doesn't support the video tag. Please try the alternative (link below)</p>
 </video>
 <p class="video-alternative">[If you can't see the video above, <a href="videos-older-browsers.php">click here</a> for an alternative way to view.]</p>
