@@ -8,6 +8,22 @@ mysql_select_db($database_raConn, $raConn); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Ruth Angus</title>
 <link href="/ra1.css" rel="stylesheet" type="text/css">
+
+<?php 
+$numberOfGraphs = 5;
+$BGcount = rand ( 1 , $numberOfGraphs);
+$headerBG = "graph".$BGcount.".png" ;?>
+<style type="text/css">
+<!--
+#header-container-small {
+background-image: url(/images/graphs/<?php echo $headerBG ;?>); /* HEADER IMAGE */
+	background-repeat:repeat-x;	
+	background-attachment:fixed;
+	background-position: 0px -100px; /* SLIDE UNDERLYING IMAGE UP OR DOWN */
+}
+-->
+</style>
+
 </head>
 
 

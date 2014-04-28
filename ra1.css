@@ -87,19 +87,15 @@ a.menulink:hover {
 /* PAGE DIVISIONS */
 
 #header-container {  /* HEIGHT OF HEADER ON HOME PAGE ALONG WITH BOTTOM BORDER */
+/* NB THE BACKGROUND FOR THE HEADER CONTAINER IS GENERATED RANDOMLY BY THE LOCAL CSS IN THE PAGE CODE*/
 	height: 340px;
-	background-image: url(images/graph1.png); /* HEADER IMAGE */
-	background-repeat:repeat-x;
 	border-bottom: solid 2px #666;
 
 }
 
 #header-container-small { /* HEIGHT OF HEADER ON OTHER PAGES ALONG WITH BOTTOM BORDER */
+/* NB THE BACKGROUND FOR THE HEADER CONTAINER SMALL IS GENERATED RANDOMLY BY THE LOCAL CSS IN THE PAGE CODE*/
 	height: 50px;
-	background-image: url(images/graph1.png); /* HEADER IMAGE */
-	background-repeat:repeat-x;	
-	background-attachment:fixed;
-	background-position: 0px -100px; /* SLIDE UNDERLYING IMAGE UP OR DOWN */
 	border-bottom: solid 2px #666;
 	
 
