@@ -1,3 +1,4 @@
+<?php include ("../includes/startSession.php"); ?>
 <!DOCTYPE html>
 <html>
 <?php include ("../includes/fonts.php");?>
@@ -13,7 +14,7 @@ $headerBG = "graph".$BGcount.".png" ;?>
 <style type="text/css">
 <!--
 #header-container-small {
-background-image: url(/images/graphs/<?php echo $headerBG ;?>); /* HEADER IMAGE */
+background-image: url(/images/graphs/<?php echo $_SESSION['header'] ;?>); /* HEADER IMAGE */
 	background-repeat:repeat-x;	
 	background-attachment:fixed;
 	background-position: 0px -100px; /* SLIDE UNDERLYING IMAGE UP OR DOWN */
