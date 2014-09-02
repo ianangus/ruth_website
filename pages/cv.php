@@ -192,7 +192,7 @@ echo "<p class='cvDetails'>".$row_teaching_query['teaching']."</p>";
 
 <!-- TALKS BLOCK	 -->
 
-<h2>Talks</h2>
+<h2>Conference Talks and Seminars</h2>
 
 <?php 
 $query_talks_query = "SELECT * FROM talks_detail INNER JOIN talks ON talks_id = talks_main_id ORDER BY talks_detail_id DESC;";
